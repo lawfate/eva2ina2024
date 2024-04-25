@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1c8bc;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  footer {
+    background-color: #b6c439;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    
+  }
+  .logo img {
+    max-width: 200px;
+  }
+  
+  .img2 img {
+    width: 70%;
+    text-align: center;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .gerinf {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .gerente {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .gerente img {
+    width: 100%;
+  }
+  
+  .info {
+    flex: 2;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  .login {
+    max-width: 400px;
+    padding: 40px;
+    background-color: #d6851b;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px ;
+  }
+  .login h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form{
+    margin-bottom: 20px;
+  }
+  .form label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px ;
+    border-radius: 5px;
+  }
+  button{
+    width: 80%;
+    padding: 15px;
+    background-color: yellowgreen;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.logo a {
+    color: white;
+}
+
+.gallery  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery .product {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  background-color: #FFFDD0;
+  padding: 10x;
+  box-sizing: border-box;
+}
+
+.product img {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.product h3, .product p {
+  margin: 0;
+}
+
+.gallery .product button {
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.product input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #FFFDD0;
+  border-radius: 5px;
+  text-align: center;
+}
+.main-image {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.main-image img {
+  max-width: 70%; 
+  height: auto; 
+}
+
+@media (max-width: 768px) {
+  .product {
+      width: calc(50% - 10px);
+  }
+}
+
+.informacion-empresa {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #fFFFDD;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.gerente {
+  text-align: center;
+}
+
+.contenido {
+  display: flex;
+}
+
+.gerente img {
+  max-width: 250px; 
+  margin-bottom: 5px; 
+}
+
+.info {
+  text-align: center;
+}
